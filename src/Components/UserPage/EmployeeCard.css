@@ -1,0 +1,54 @@
+/* EmployeeCard.css */
+
+.employee-card {
+  margin: auto;
+  background-color: #1e1b1b;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative; 
+  border-radius: 20px;
+  width: 70%;
+}
+
+.emp-id-badge {
+  background-color: #333131;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+}
+
+.info-row {
+  margin-bottom: 5px;
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.98px;
+  line-height: 19px;
+}
+
+.dob {
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 14px;
+  color: #B77420;
+  letter-spacing: 0.98px;
+  line-height: 19px;
+}
+
+.role {
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 14px;
+  color: #36a546;
+  letter-spacing: 0.98px;
+  line-height: 19px;
+}
+
+.equal {
+  min-width: 100px;
+}

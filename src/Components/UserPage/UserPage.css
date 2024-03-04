@@ -1,0 +1,77 @@
+/* UserPage.css */
+
+.user-page-container {
+  width: 97vw;
+  background-color: #000000;
+  color: #ffffff;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.user-icon {
+  text-align: right;
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-icon {
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.search-container {
+  position: relative;
+  width: 80%; /* Adjust as needed */
+  margin: 20px;
+  border-radius: 50px; /* Set border radius */
+}
+
+.search-container input[type="text"] {
+  width: calc(100% - 40px); /* Adjust to leave space for the icon */
+  padding: 10px;
+  border: none;
+  border-radius: 50px; /* Set border radius */
+  background-color: #1e1b1b;
+  color: #ffffffb3;
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFFB3;
+  letter-spacing: 1.12px;
+  line-height: 21px;
+  padding-left: 20px;
+}
+
+.search-container .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 20px; /* Adjust icon size */
+  height: auto;
+}
+
+.search-icon {
+  opacity: 70%;
+}
+
+/* .employee-card {
+  background-color: #808080;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.employee-card .emp-id {
+  background-color: #808080;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+} */

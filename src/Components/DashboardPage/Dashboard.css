@@ -1,0 +1,118 @@
+/* Dashboard.css */
+.Dashboard-container{
+  background-color: black;
+  height: auto;
+  padding-bottom: 200px;
+}
+
+.user-icon {
+  text-align: right;
+  padding: 20px 20px 0 0;
+}
+
+.dashboard-content {
+  padding: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.page-icon {
+  margin-right: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.fa-search {
+  margin-left: 10px;
+}
+
+.productivity-section {
+  background-color: #1e1b1b;
+  padding: 10px;
+  border-radius: 15px;
+  color: #ffffff;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px; 
+}
+
+.section-title {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #373636;
+  color: #ffffff;
+  height: 35px;
+  padding: 0;
+  border-radius: 25px;
+  width: 100%; 
+  margin: auto;
+  margin-bottom: 20px; 
+  margin-top: -15px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFFB3;
+  letter-spacing: 0.8px;
+  line-height: 25px;
+}
+
+.productivity-item {
+  margin-bottom: 20px;
+}
+
+.productivity-bar {
+  height: 15px;
+  background-color: green;
+  border-radius: 25px;
+  margin: 0 10px 0 10px;
+}
+
+.productivity-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.productivity-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.productivity-day {
+  text-align: left;
+  padding-left: 10px;
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0.84px;
+  line-height: 16px;
+}
+
+.productivity-percentage {
+  text-align: right;
+  padding-right: 10px;
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 14px;
+  color: #36a546;
+  letter-spacing: 0.98px;
+  line-height: 19px;
+}
+
+

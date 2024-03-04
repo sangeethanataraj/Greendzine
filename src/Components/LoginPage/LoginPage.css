@@ -1,0 +1,83 @@
+  /* LoginPage.css */
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border-radius: 28px;
+    opacity: 1;
+  }
+  
+  .login-content {
+    width: 300px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .login-icon {
+    width: 80px; /* Adjust as needed */
+    height: 80px; /* Adjust as needed */
+    margin-bottom: 20px;
+  }
+
+ /* Input styles */
+.login-input {
+  width: 80%; /* Set width to match the design */
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #1F191966; /* Set background color */
+  border: none;
+  border-radius: 25px;
+  box-shadow: inset 0px 3px 3px rgba(255, 253, 253, 0.25), 3px 3px 3px rgba(74, 73, 73, 0.25); /* Add box shadow */
+  mix-blend-mode: normal;
+  opacity: 1;
+  color: white; /* Set text color to white */
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.98px;
+  line-height: 19px;
+}
+
+  
+  .login-button {
+    width: 88%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 2px solid #8CFF0026;
+    opacity: 1;
+    font-family: Mulish; 
+    font-weight: bold; 
+    font-size: 16px; 
+    color: #FFFFFF8C; 
+    letter-spacing: 1.12px; 
+    line-height: 21px; 
+  }
+  
+  .login-button:hover {
+    background-color: #dce5ef; 
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal normal 15px/20px Mulish;
+    letter-spacing: 1.05px;
+    color: #36A546;
+    opacity: 1;
+    font-family: "Mulish", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
